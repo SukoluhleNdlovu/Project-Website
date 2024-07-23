@@ -111,7 +111,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Feel free to reach out if you have any questions or suggestions!
 
 - **Email**: sukoluhle926@@gmail.com
-- **LinkedIn**: (https://www.linkedin.com/in/yourprofile)
+- **LinkedIn**: https://www.linkedin.com/in/sukoluhle-ndlovu-68924219a/
 - **GitHub**: (https://github.com/yourusername)
 
 ---
