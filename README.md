@@ -50,7 +50,7 @@ Welcome to my personal portfolio website! This site showcases my work as a Softw
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd portfolio-website
+   cd project-website
    ```
 
 3. **Open the `index.html` File in Your Browser**:
