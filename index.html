@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/e8f17ee5d9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/sue1.png" class="logo">
+                    <ul id="sidemenu">
+                    <ul id="nav-links">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Software Developer & UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Sukoluhle</span><br>From South Africa</h1>
+                </div>
+            </div>
+        </div>
+
+    <!---About Me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sue4.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p> I am a passionate software developer and UI/UX designer with a fresh qualification in software development. 
+                        My expertise lies at the intersection of technical proficiency and creative design, enabling me to build user-friendly 
+                        and visually appealing applications. Throughout my studies, I have honed my skills in various programming languages and 
+                        design principles, always striving to create seamless user experiences. I am excited to bring my innovative ideas and 
+                        technical know-how to real-world projects, continually learning and growing in this dynamic field.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Building Web/Apps</li>
+                            <li><span>App Development</span><br>Building Mobile Apps</li>
+                            <li><span>Version Control</span><br>Proficiency with Git and GitHub</li>
+                        </ul>
+                </div> 
+                <div class="tab-contents"  id="experience">
+                    <ul>
+                        <li><span>2024-Present</span><br>Student Tutor at IIE Rosebank College</li>
+                        <li><span>Responsibilities:</span></li>
+                        <li>• Assisted fellow students in understanding complex programming concepts and coding techniques.</li>
+                        <li>• Developed and conducted engaging tutorials and study sessions to enhance learning and retention.</li>
+                        <li>• Provided one-on-one support, troubleshooting coding issues, and helping students debug their projects.</li>
+                    </ul>
+            </div>
+                <div class="tab-contents"  id="education">
+                    <ul>
+                        <li><span>2023-2025</span><br>Diploma in Information Technology at University of South Africa</li>
+                        <li><span>2022-2024</span><br>Diploma in Software Development at Rosebank College</li>
+                        <li><span>2022-2022</span><br>Software Engineering Bootcamp in Computer Software at HyperionDev</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!---Services-->
+<div class="services" id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I am skilled in web design with expertise in CSS, HTML, and JavaScript, creating responsive and visually appealing websites</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>I design intuitive and enjoyable user experiences, focusing on user-centered design principles and utilizing wireframing and 
+                    user flows to develop prototyping tools.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>I create engaging and user-friendly app interfaces, ensuring consistency with platform guidelines and refining ideas through 
+                    prototyping and mockups.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---Portfolio--->
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/salon3.png" alt="Salon Website & Mobile App">
+                <div class="layer">
+                    <h3>Salon Website & Mobile App</h3>
+                    <p>
+                        A salon management system that allows users to book appointments, view services, and get beauty tips. The mobile app 
+                        provides seamless scheduling, reminders, and loyalty rewards for a personalized salon experience.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/football2.png" alt="Sport Betting Website">
+                <div class="layer">
+                    <h3>Sport Betting Website</h3>
+                    <p> 
+                        A dynamic sports betting app that offers live odds, real-time updates, and secure transactions. Users can place bets on 
+                        various sports events, track their bets, and access expert analysis and predictions.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/recipe1.png" alt="Recipe Book Android App">
+                <div class="layer">
+                    <h3>Recipe Book Android App</h3>
+                    <p>
+                        A digital recipe book that allows users to discover, save, and share recipes. The app features a user-friendly 
+                        interface, categorized recipes, and step-by-step cooking instructions, making it easy for users to find and prepare 
+                        their favorite dishes.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/studying.png" alt="Campus Connect++ App">
+                <div class="layer">
+                    <h3>Campus Connect++ App</h3>
+                    <p> 
+                        An efficient app for students to organize their notes, manage assignments, and communicate with classmates and teachers. 
+                        Features include note-taking, task lists, calendar integration, and a messaging system for streamlined academic collaboration.
+                    </p>
+                    <a href="https://www.figma.com/proto/MhCmXXVZZjs7fvRL79wo2n/CampusConnectDesktop?t=CAcR95baf1OxbRFy-1"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/coffee1.png" alt="Coffee Shop Android App">
+                <div class="layer">
+                    <h3>Coffee Shop Android App</h3>
+                    <p>
+                        The Coffee Shop app enhances your coffee-drinking experience by providing a convenient way to order your favorite beverages. With a 
+                        intuitive interface, you can browse the menu, customize your orders, and choose from a range of pickup or delivery 
+                        options.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/plant1.png" alt="Plant Shop Android App">
+                <div class="layer">
+                    <h3>Plant Shop Android App</h3>
+                    <p>
+                        Web app offers a seamless online shopping experience for plant enthusiasts. Browse through a wide variety of
+                        indoor and outdoor plants, and make purchases with ease. The app features user-friendly navigation, 
+                        secure payment, to help you find the perfect plants for your home or garden.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---Contact--->
+<div class="contact" id="contact" >
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sukoluhle926@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+27 733304857/ +276 4575048</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/suehle"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/suehle/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/suehle"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/suehle/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV_Sukoluhle Ndlovu.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+</div>
+</div>
+
+<div class="copyright">
+    <p>Copyright © 2024. <i class="fas fa-heart"> </i> Created by Sukoluhle Ndlovu. </p>
+</div>
+
+    <script src="index.js"></script>    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links"); 
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        function showMenu() {
+            document.getElementById("nav-links").style.right = "0";
+        }
+
+        function hideMenu() {
+            document.getElementById("nav-links").style.right = "-200px";
+        }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw716lyDmTcrRpMeLvwqWgDrf5eB1vt_qi4OZJ_BvPETPdxUotz4aVuyP-x8mO6MJZC5A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML= "Message sent successfully" 
+         setTimeout(function(){
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
