@@ -45,7 +45,7 @@ Welcome to my personal portfolio website! This site showcases my work as a Softw
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/SukoluhleNdlovu/Project-Website/tree/main
    ```
 
 2. **Navigate to the Project Directory**:
